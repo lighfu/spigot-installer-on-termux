@@ -49,7 +49,8 @@ function plugin {
 	pluginUrl["floodgate-spigot"]="https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot"
 	pluginUrl["viaversion-4.8.1"]="https://github.com/ViaVersion/ViaVersion/releases/download/4.8.1/ViaVersion-4.8.1.jar"
         pluginUrl["viaversion-5.0.0"]="https://github.com/ViaVersion/ViaVersion/releases/download/5.0.0/ViaVersion-5.0.0.jar"
-        
+        pluginUrl["viaversion-5.0.3"]="https://github.com/ViaVersion/ViaVersion/releases/download/5.0.3/ViaVersion-5.0.3.jar"
+	
         bef=`pwd`
 	mkdir plugins
 	cd plugins
@@ -353,7 +354,7 @@ case $n in
   fi
   ;;
 
-4) plugin install viaversion-5.0.0 ;;
+4) plugin install viaversion-5.0.3 ;;
 0) echo " installer exited"; break ;;
   
 10)
