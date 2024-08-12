@@ -30,7 +30,7 @@ echo " ========================================="
 echo "|                                         |"
 echo "|        ${yellow}Spigot installer${reset} on ${green}Termux${reset}       |"
 echo "|                                         |"
-echo "|            lv0 [v0.1.autorun]           |"
+echo "|         lv0 [v0.1-autorun-1.21]         |"
 echo "|                                         |"
 echo " ========================================="
 echo
@@ -150,6 +150,9 @@ fi
 
 declare -A versions
 versions=(
+ ["1.21"]="https://download.getbukkit.org/spigot/spigot-1.21.jar"
+ ["1.20.6"]="https://download.getbukkit.org/spigot/spigot-1.20.6.jar"
+ ["1.20.4"]="https://download.getbukkit.org/spigot/spigot-1.20.4.jar"
  ["1.20.2"]="https://download.getbukkit.org/spigot/spigot-1.20.2.jar"
  ["1.20.1"]="https://download.getbukkit.org/spigot/spigot-1.20.1.jar"
  ["1.19.4"]="https://download.getbukkit.org/spigot/spigot-1.19.4.jar"
