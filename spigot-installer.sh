@@ -135,7 +135,7 @@ echo [INFO] Start package updates and installation
 sleep 1
 
 apt update -y && apt upgrade -y
-apt install micro curl wget openjdk-19-jdk-headless -y
+apt install micro curl wget openjdk-21-jdk -y
 
 if [ $? -eq 0 ]; then
   echo
